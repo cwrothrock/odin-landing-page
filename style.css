@@ -1,0 +1,150 @@
+:root {
+    font-family: 'Roboto', sans-serif; 
+
+    --font-white: #F9FAF8; 
+    --bg-dark: #1F2937; 
+    --bg-blue: #3882F6; 
+    --bg-light: #E5E7EB; 
+}
+
+body {
+    margin: 0; 
+}
+
+.section {
+    padding: 25px 50px 50px 50px; 
+}
+
+.left, .right {
+    max-width: 50%;
+}
+
+.header {
+    background-color: var(--bg-dark);
+    color: var(--font-white); 
+    display: flex; 
+    margin: 0; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#logo {
+    font-size: 24px; 
+    font-weight: 900; 
+}
+
+.header a {
+    font-size: 18px; 
+    color: var(--bg-light); 
+    font-weight: 300;
+}
+
+ul {
+    display: flex; 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    gap: 16px; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+#intro {
+    background-color: var(--bg-dark);
+    color: var(--font-white); 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    color: var(--font-white); 
+    background-color: var(--bg-blue);
+    border: none; 
+    border-radius: 5px;
+    padding: 3px 15px; 
+    font-weight: bold; 
+}
+
+#info {
+    background-color: white;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 25px 50px 25px 50px; 
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-around;
+    width: 100%; 
+    margin-top: 25px; 
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px; 
+    max-width: 100px;
+}
+
+.card img {
+    border: 2px solid var(--bg-blue);
+    border-radius: 10px; 
+    min-width: 100px; 
+    min-height: 100px; 
+}
+
+#quote {
+    padding: 25px 100px 25px 100px; 
+    background-color: var(--bg-light);
+}
+
+.quote {
+    font: italic 24px 'Roboto', sans-serif; 
+    font-weight: lighter; 
+}
+
+.signature {
+    text-align: right; 
+    font-weight: bold;
+}
+
+#signup {
+    padding: 75px; 
+    color: var(--font-white);
+}
+
+#calltoaction {
+    align-items: center;
+    display: flex; 
+    border-radius: 5px; 
+    background-color: var(--bg-blue);
+    padding: 25px 50px 25px 50px;
+}
+
+#calltoaction .left {
+    min-width: 75%; 
+}
+
+#calltoaction button {
+    border: 1px solid white; 
+    border-radius: 5px;
+}
+
+h1, h4, p {
+    margin: 0; 
+}
+
+.footer {
+    background-color: var(--bg-dark);
+    text-align: center;
+    color: var(--font-white); 
+    padding: 25px; 
+}
